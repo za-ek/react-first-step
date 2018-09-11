@@ -1,0 +1,16 @@
+{
+  "name": "my-react-project",
+  "description": "Trying to set up react environment",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/za-ek/react-first-step.git"
+  },
+  "version": "1.0.0",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.0.0"
+  }
+}
