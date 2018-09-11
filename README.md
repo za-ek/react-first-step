@@ -6,5 +6,5 @@
 
 # Запускаем компилятор
 
-`npm install`
+`npm run build`
 
