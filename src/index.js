@@ -7,14 +7,15 @@ class HelloMessage extends React.Component {
     render() {
         return (
             <div>
-                Hello {this.props.name}
+                Running on {this.props.name} environment
             </div>
         );
     }
 }
 
+
 ReactDOM.render(
-    <HelloMessage name="Taylor Swift" />,
+    <HelloMessage name={process.env.NODE_ENV} />,
     document.getElementsByTagName('body')[0]
 );
 
