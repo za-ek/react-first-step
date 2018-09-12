@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 class HelloMessage extends React.Component {
     render() {
         return (
@@ -10,5 +13,5 @@ class HelloMessage extends React.Component {
 
 ReactDOM.render(
     <HelloMessage name="Taylor" />,
-    mountNode
+    document.getElementsByTagName('body')[0]
 );
