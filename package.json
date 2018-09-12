@@ -8,7 +8,8 @@
   },
   "version": "1.0.0",
   "scripts": {
-    "build": "babel src -d lib"
+    "build": "babel src -d lib",
+    "pack" : "webpack"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
