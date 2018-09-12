@@ -1,12 +1,6 @@
-# Установка babel (компилятор ES) 
+# Установка пакетов указаных в package.json
 
-`npm install --save-dev babel-cli` 
-
-`npm install babel-preset-env` 
-
-# Запускаем компилятор
-
-`npm run build`
+`npm i` 
 
 # Запуск вручную
 JSX &rarr; ES6
