@@ -10,7 +10,7 @@
 
 # Запуск вручную
 JSX &rarr; ES6
-- `node node_modules/.bin/babel --presets @babel/preset-react  src -d lib`
+- `node node_modules/.bin/babel src -d lib`
 
 ES6 &rarr; Native
 - `npx webpack --config webpack.config.js`
